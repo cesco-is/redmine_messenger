@@ -7,7 +7,7 @@ ko:
   label_messenger_db_entry_created: "%{project_url} - *%{user}*님이 데이터베이스 항목(%{url})을 만들었습니다."
   label_messenger_db_entry_updated: "%{project_url} - *%{user}*님이 데이터베이스 항목(%{url})을 수정했습니다."
   label_messenger_default_not_visible: 보안 상의 이유로 기본값이 보여지지 않습니다.
-  label_messenger_issue_created: "%{project_url} - *%{user}*님이 일감(%{url})을 만들었습니다."
+  label_messenger_issue_created: "%{project_url} - *%{user}*님이 일감(%{url})을 만들었습니다. (담당자 : %{assignedto})"
   label_messenger_issue_updated: "%{project_url} - *%{user}*님이 일감(%{url})을 수정했습니다."
   label_messenger_outgoing_webhook: 웹훅 발신
   label_messenger_password_created: "%{project_url} - *%{user}*님이 암호(%{url})를 만들었습니다."
