@@ -85,7 +85,8 @@ module RedmineMessenger
                             project_url: Messenger.project_url_markdown(project),
                             url: send_messenger_mention_url(project, description),
                             user: current_journal.user,
-                            assignedto: Messenger.markup_format(assigned_to.to_s)
+                            assignedto: Messenger.markup_format(assigned_to.to_s),
+                            author: author
                             ),
                             channels, url, attachment: attachment, project: project)
         end
